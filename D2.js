@@ -153,15 +153,15 @@ if (randomNumber % 2 === 0) {
 let val = 11;
 
 if (val < 5) {
-  console.log("Minore di 5");
+  console.log("Less than 5");
 } else if (val === 5) {
-  console.log("Uguale a 5");
+  console.log("Equal to 5");
 } else if (val < 10) {
-  console.log("Minore di 10 e maggiore di 5");
+  console.log("More than 10 and less than 5");
 } else if (val === 10) {
-  console.log("Uguale a 10");
+  console.log("Equal to 10");
 } else {
-  console.log("Maggiore di 10");
+  console.log("More than 10");
 }
 
 /* ESERCIZIO 11
