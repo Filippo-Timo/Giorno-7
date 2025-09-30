@@ -150,14 +150,13 @@ if (randomNumber % 2 === 0) {
     }
 */
 
-let val = 8;
+let val = 10;
 
 if (val < 10 && val > 5) {
   console.log("Minore di 10 e maggiore di 5");
 } else if (val < 5) {
   console.log("Minore di 5");
 } else {
-  val >= 10;
   console.log("Maggiore o Uguale a 10");
 }
 
