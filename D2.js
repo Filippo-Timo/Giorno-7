@@ -89,32 +89,32 @@ const n7 = 45;
 
 let first, second, third;
 
-if (n1 >= n2 && n1 >= n3) {
-  first = n1;
-  if (n2 >= n3) {
-    second = n2;
-    third = n3;
+if (n5 >= n6 && n5 >= n7) {
+  first = n5;
+  if (n6 >= n7) {
+    second = n6;
+    third = n7;
   } else {
-    second = n3;
-    third = n2;
+    second = n7;
+    third = n6;
   }
-} else if (n2 >= n1 && n2 >= n3) {
-  first = n2;
-  if (n1 >= n3) {
-    second = n1;
-    third = n3;
+} else if (n6 >= n5 && n6 >= n7) {
+  first = n6;
+  if (n5 >= n7) {
+    second = n5;
+    third = n7;
   } else {
-    second = n3;
-    third = n1;
+    second = n7;
+    third = n6;
   }
 } else {
-  first = n3;
-  if (n1 >= n2) {
-    second = n1;
-    third = n2;
+  first = n7;
+  if (n5 >= n6) {
+    second = n5;
+    third = n6;
   } else {
-    second = n2;
-    third = n1;
+    second = n6;
+    third = n7;
   }
 }
 console.log(first, second, third);
@@ -150,14 +150,18 @@ if (randomNumber % 2 === 0) {
     }
 */
 
-let val = 10;
+let val = 11;
 
-if (val < 10 && val > 5) {
-  console.log("Minore di 10 e maggiore di 5");
-} else if (val < 5) {
+if (val < 5) {
   console.log("Minore di 5");
+} else if (val === 5) {
+  console.log("Uguale a 5");
+} else if (val < 10) {
+  console.log("Minore di 10 e maggiore di 5");
+} else if (val === 10) {
+  console.log("Uguale a 10");
 } else {
-  console.log("Maggiore o Uguale a 10");
+  console.log("Maggiore di 10");
 }
 
 /* ESERCIZIO 11
