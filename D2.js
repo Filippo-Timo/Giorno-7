@@ -30,9 +30,9 @@ if (n1 % 5 === 0) {
 }
 
 if (n2 % 5 === 0) {
-  console.log("n1 is divisible by 5");
+  console.log("n2 is divisible by 5");
 } else {
-  console.log("n1 is indivisible by 5");
+  console.log("n2 is indivisible by 5");
 }
 
 /* ESERCIZIO 4
@@ -67,12 +67,12 @@ if (totalShoppingCart > 50) {
   Modifica la risposta precedente includendo questa nuova promozione nell'algoritmo, determinando come prima se le spedizioni sono gratuite oppure no e e calcolando il totale.
 */
 
-totalShoppingCart = 80 - (80 / 100) * 20;
+totalShoppingCartBf = 80 - (80 / 100) * 20;
 shippingCost = 10;
-total = totalShoppingCart + shippingCost;
+total = totalShoppingCartBf + shippingCost;
 let discount = 20;
 
-if (totalShoppingCart > 50) {
+if (totalShoppingCartBf > 50) {
   console.log(total - shippingCost);
 } else {
   console.log(total);
